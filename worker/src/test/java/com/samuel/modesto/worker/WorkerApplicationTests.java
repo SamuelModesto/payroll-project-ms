@@ -1,10 +1,10 @@
-package com.samuel.modesto.payroll;
+package com.samuel.modesto.worker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PayrollApplicationTests {
+class WorkerApplicationTests {
 
 	@Test
 	void contextLoads() {
