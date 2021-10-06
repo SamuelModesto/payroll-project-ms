@@ -5,16 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class Payment {
-    private String nome;
-    private double valorDia;
-    private int diasTrabalhados;
+@NoArgsConstructor
+public class Worker implements Serializable {
 
-    public double getTotal(){
-        return diasTrabalhados * valorDia;
-    }
+    private Long id;
+    private String nome;
+    private Double valorPorDia;
+
 }
