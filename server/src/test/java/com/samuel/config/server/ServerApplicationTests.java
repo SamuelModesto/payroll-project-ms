@@ -1,10 +1,10 @@
-package com.samuel.modesto.worker;
+package com.samuel.config.server;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WorkerApplicationTests {
+class ServerApplicationTests {
 
 	@Test
 	void contextLoads() {
